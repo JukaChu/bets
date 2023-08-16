@@ -1,0 +1,381 @@
+@media screen and (max-width: 1600px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .banner-text {
+    padding: 50px 0;
+  }
+  .banner-text p {
+    margin-top: 40px;
+    margin-bottom: 32px;
+    font-size: 16px;
+  }
+  .home-banner {
+    height: 450px;
+  }
+  .banner-text::after {
+    left: 30px;
+    width: 579px;
+    height: 115px;
+  }
+  .page-content__cont span {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .promocodes__cont {
+    gap: 40px;
+  }
+  .faq-head {
+    padding: 16px 24px;
+
+    span {
+      font-size: 16px;
+    }
+  }
+  .faq-text {
+    padding: 16px 0;
+  }
+  .promocodes {
+    padding: 40px 0;
+  }
+  .promocodes__top {
+    margin-bottom: 40px;
+  }
+  .payment-cont ul {
+    margin-bottom: 24px;
+  }
+  .payment {
+    margin-bottom: 40px;
+  }
+  .register {
+    margin-bottom: 40px;
+  }
+  .register-steps {
+    gap: 12px;
+  }
+  .single-register {
+    width: calc((100% / 3) - (24px / 3));
+  }
+  .single-register .text {
+    padding: 24px 24px 56px;
+  }
+  .single-register .text p {
+    margin-bottom: 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .single-register .text p strong {
+    font-size: 24px;
+
+  }
+  .about-us {
+    margin-bottom: 40px;
+  }
+  .about-us__top .text p {
+    margin-bottom: 32px;
+  }
+  .table-cont td, .table-cont th {
+    padding: 8px 0 8px 12px;
+  }
+  .payment-cont {
+    .table-cont td p, .table-cont th p {
+      font-size: 13px;
+    }
+  }
+  .table-cont table {
+    border-radius: 8px;
+  }
+  .page-content {
+    margin: 40px 0;
+  }
+  .page-content__cont {
+    padding: 24px;
+  }
+  .about-us__top .img {
+    width: 420px;
+    height: 240px;
+  }
+  .about-us__top {
+    gap: 24px;
+  }
+  .about-us__cont {
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .mobile-app__top > .img {
+    width: 400px;
+    height: 270px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .footer-right {
+    padding: 32px 24px;
+
+    > span {
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+  }
+  .footer-left .logo {
+    margin-bottom: 32px;
+  }
+  .footer {
+    padding: 40px 0 24px;
+  }
+  .footer::before {
+    display: none;
+  }
+  .textual {
+    padding-bottom: 40px;
+  }
+  .footer-left .header-langs {
+    margin-bottom: 40px;
+  }
+  .footer-right {
+    width: 400px;
+  }
+  .textual-cont {
+    margin-top: 30px;
+  }
+  .textual-cont {
+    h1 {
+      font-size: 26px;
+
+    }
+  }
+  .textual-cont h2, .textual-cont h3 {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  .promobot {
+    gap: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .download-btns {
+    flex-wrap: wrap;
+
+    .btn-app {
+      width: 245px;
+    }
+  }
+  .mobile-app__top {
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+  .mobile-app__center .download-btns {
+    margin-top: 8px;
+  }
+  .register-steps {
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .single-register {
+    width: calc(50% - 12px);
+  }
+  .about-us__top {
+    .img {
+      width: 300px;
+      height: 170px;
+    }
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .mobile-app__top {
+    flex-direction: column;
+
+    > .img {
+      width: 100%;
+      height: 0;
+      padding-top: 68.8%;
+      position: relative;
+
+      img {
+        top: 0;
+        left: 0;
+        position: absolute;
+      }
+    }
+  }
+  .payment-cont > p {
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .page-content__cont {
+    border-radius: 8px;
+    padding: 0;
+    position: relative;
+    transition: all 0.3s ease-out;
+
+    span {
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      border-radius: 8px;
+
+      &::after {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        content: '';
+        background: url("../img/arr-down-1.svg") no-repeat center / 100%;
+        transition: all 0.3s ease-out;
+      }
+    }
+
+    ul {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: $main-color;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 12px;
+      padding: 0 24px 24px;
+      border-radius: 0 0 8px 8px;
+      z-index: 2;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease-out;
+    }
+
+    &.open {
+      border-radius: 8px 8px 0 0;
+
+      > span {
+        &::after {
+          transform: rotate(180deg);
+        }
+      }
+
+      ul {
+        opacity: 1;
+        pointer-events: auto;
+      }
+    }
+  }
+  .about-us__top {
+    flex-direction: column-reverse;
+
+    .text {
+      width: 100%;
+    }
+
+    .img {
+      width: 100%;
+      height: 0;
+      position: relative;
+      padding-top: 57.8%;
+
+      img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+  .header-cont {
+    padding: 14px 0;
+  }
+  .btn {
+    padding: 12px 30px;
+  }
+  .banner-text::after {
+    display: none;
+  }
+  .banner-text {
+    padding: 40px 0 60px;
+
+    p {
+      margin: 16px 0 32px;
+      max-width: 220px;
+    }
+  }
+  .home-banner {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .download-banner__cont {
+    padding: 6px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .btn {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  .download-banner {
+    bottom: 12px;
+  }
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .footer-left {
+    width: 100%;
+  }
+  .footer-right {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .promobot span {
+    width: 100%;
+    padding: 12px;
+  }
+  .register-cont .btn {
+    margin-top: 32px;
+    width: 100%;
+  }
+  .single-register {
+    width: 100%;
+  }
+  .single-register .text p {
+    text-align: center;
+  }
+  .page-content__cont {
+    ul {
+      flex-direction: column;
+    }
+  }
+  .about-us__top {
+    .text {
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+}
