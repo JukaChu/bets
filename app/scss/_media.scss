@@ -200,6 +200,10 @@
 }
 
 @media screen and (max-width: 769px) {
+  .page-content__cont span {
+    margin-right: 0;
+    cursor: pointer;
+  }
   .mobile-app__top {
     flex-direction: column;
 
