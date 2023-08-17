@@ -197,35 +197,9 @@
       height: 170px;
     }
   }
-}
-
-@media screen and (max-width: 769px) {
   .page-content__cont span {
     margin-right: 0;
     cursor: pointer;
-  }
-  .mobile-app__top {
-    flex-direction: column;
-
-    > .img {
-      width: 100%;
-      height: 0;
-      padding-top: 68.8%;
-      position: relative;
-
-      img {
-        top: 0;
-        left: 0;
-        position: absolute;
-      }
-    }
-  }
-  .payment-cont > p {
-    margin-bottom: 16px;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
   }
   .page-content__cont {
     border-radius: 8px;
@@ -283,6 +257,34 @@
       }
     }
   }
+}
+
+@media screen and (max-width: 769px) {
+
+  .mobile-app__top {
+    flex-direction: column;
+
+    > .img {
+      width: 100%;
+      height: 0;
+      padding-top: 68.8%;
+      position: relative;
+
+      img {
+        top: 0;
+        left: 0;
+        position: absolute;
+      }
+    }
+  }
+  .payment-cont > p {
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
   .about-us__top {
     flex-direction: column-reverse;
 
@@ -356,6 +358,17 @@
 }
 
 @media screen and (max-width: 550px) {
+  h2 {
+    font-size: 23px;
+    line-height: 1.2;
+  }
+  h1 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+  .banner-text {
+    padding: 30px 0 40px;
+  }
   .promobot span {
     width: 100%;
     padding: 12px;
@@ -381,5 +394,19 @@
         width: 100%;
       }
     }
+  }
+}
+@media screen and (max-width: 360px) {
+  .faq-head span {
+    font-size: 14px;
+  }
+  .payment-cont .table-cont td p, .payment-cont .table-cont th p {
+    font-size: 11px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .btn {
+    font-size: 14px;
   }
 }
